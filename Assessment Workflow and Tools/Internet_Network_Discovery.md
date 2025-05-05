@@ -1,9 +1,9 @@
 
-# 🌐 Internet Network Discovery
+#  Internet Network Discovery
 
 ---
 
-## 🔍 Google Dorking
+##  Google Dorking
 
 Attackers use advanced search operators to gather publicly available information from websites.
 
@@ -31,11 +31,11 @@ Attackers use advanced search operators to gather publicly available information
 
 ---
 
-## 🛰️ Shodan
+## Shodan
 
 Shodan is a search engine for Internet-connected devices and services. It provides information such as hostnames, open ports, services, and banners.
 
-### 🔎 Common Filters:
+###  Common Filters:
 
 | Filter     | Example                             | Description                                      |
 |------------|-------------------------------------|--------------------------------------------------|
@@ -51,7 +51,7 @@ Shodan is a search engine for Internet-connected devices and services. It provid
 
 ---
 
-## 🌐 DomainTools
+##  DomainTools
 
 DomainTools provides intelligence about domains and IPs.
 
@@ -63,7 +63,7 @@ DomainTools provides intelligence about domains and IPs.
 
 ---
 
-## 🧾 Manual WHOIS Querying
+##  Manual WHOIS Querying
 
 Use `whois` command to query domain registrars and get registration data.
 
@@ -80,11 +80,11 @@ whois -A "<target>"
 
 ---
 
-## 🧠 DNS Querying
+##  DNS Querying
 
 DNS queries reveal key infrastructure data. Tools like `dig`, `nslookup`, and `nmap` are commonly used.
 
-### 📄 Common DNS Record Types:
+###  Common DNS Record Types:
 
 | Record | Description          | Reveals                                         |
 |--------|----------------------|-------------------------------------------------|
@@ -99,7 +99,7 @@ DNS queries reveal key infrastructure data. Tools like `dig`, `nslookup`, and `n
 | SRV    | Service locator      | Services like LDAP, Kerberos, SIP, XMPP         |
 | TXT    | Text                 | SPF, DKIM, and security policies                |
 
-### 🔧 Useful Commands:
+###  Useful Commands:
 
 - General info:
 ```bash
