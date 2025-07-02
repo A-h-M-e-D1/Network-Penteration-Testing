@@ -1,7 +1,11 @@
 ## What is PXE?
 
-**PXE (Preboot Execution Environment)** is a protocol that allows a computer to boot an operating system from a network server without needing a local hard disk or USB.  
-It relies on protocols such as **DHCP, TFTP, HTTP, or SMB** to fetch bootloaders and OS images.
+**PXE (Preboot Execution Environment)** 
+- is a protocol that allows a computer to boot an operating system from a network server without needing a local hard disk or USB.  
+- It relies on protocols such as **DHCP, TFTP, HTTP, or SMB** to fetch bootloaders and OS images.
+- it's operates in one of two modes
+   - lite touch : Requires credentials to load full OS images via SMB
+   - zero touch : Loads a full OS without credentials
 
 ---
 
