@@ -54,3 +54,9 @@ If an attacker controls a rogue PXE server on the same network, they can:
 - Enforce **full-disk encryption (FDE)** on endpoints.
 - Use **signed boot images** and verify server identity.
 - Restrict DHCP/TFTP traffic using VLAN segmentation and ACLs.
+
+## Resources
+ - https://www.defcon.org/images/defcon-19/dc-19-presentations/Weeks/DEFCON-19-Weeks-Network-Nightmare.pdf
+ - https://www.youtube.com/watch?v=nwrAYVBx5K0
+ - https://www.rapid7.com/db/modules/exploit/windows/local/pxeexploit/
+
