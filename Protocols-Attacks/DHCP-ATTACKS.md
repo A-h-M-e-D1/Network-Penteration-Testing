@@ -141,4 +141,6 @@ interface FastEthernet0/2
 - Restrict DHCP responses to known trusted MAC addresses
 
 - Use static IPs for critical infrastructure
-    
+
+# Addtional Resources
+- https://github.com/kamorin/DHCPig
