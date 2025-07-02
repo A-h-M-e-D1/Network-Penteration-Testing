@@ -60,7 +60,7 @@ This result returned from my network home lab
 ---
 
 ## Tools Used:
-- **Responder** (with `/usr/share/responder/DHCP.py`)
+- **Responder**
 
 ---
 
