@@ -11,7 +11,7 @@
      - a data channel > used for transferring data. 
  -  FTP Modes of Operation
     - Active :  the client opens a port and listens. The server is required to actively connect to it
-    - passive : he server opens a port and listens (passively) and the client connects to it.
+    - passive : the server opens a port and listens (passively) and the client connects to it.
 
  - More info **https://www.ietf.org/rfc/rfc959.txt**
 ---
