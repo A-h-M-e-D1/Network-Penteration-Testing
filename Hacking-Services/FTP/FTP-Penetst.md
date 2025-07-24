@@ -5,7 +5,15 @@
 ##  FTP Basics
 - Remote file system access
 - Operates on **TCP ports 21 (control)** and **20 (data)**
+## How does FTP work?
+ - A typical FTP session operates using two channels:
+     - a command (sometimes called the control) channel > used for transmitting commands as well as replies to those commands.
+     - a data channel > used for transferring data. 
+ -  FTP Modes of Operation
+    - Active :  the client opens a port and listens. The server is required to actively connect to it
+    - passive : he server opens a port and listens (passively) and the client connects to it.
 
+ - More info **https://www.ietf.org/rfc/rfc959.txt**
 ---
 
 ##  FTP Vulnerabilities
